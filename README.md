@@ -6,14 +6,17 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Andreângelo Patuzzo: andreangelo.pp@gmail.com<br>
-Emanuel Rampinelli segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
+Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
+Anne Caroline Silva: carolinesilva4@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
- 
+> Com a evolução dos computadores e das conexões de rede sem fio foi possível a emersão da Internet das coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si.
+O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo, então, formas de facilitar e agilizar suas vidas.
+
 
 ### 3.MINI-MUNDO Novo<br>
 
