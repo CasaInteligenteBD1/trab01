@@ -28,9 +28,9 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 > O sistema proposto é o Smart Home, que possibilitará o controle e monitoramento remoto (por meio da internet) de eletroeletrônicos de uma residência. O Smart Home permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.
 
-Uma versão cliente do Smart Home deve ser instalada nos PCs dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o PC esteja conectado à internet.
+> Uma versão cliente do Smart Home deve ser instalada nos PCs dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o PC esteja conectado à internet.
 
-Sensores são estrategicamente posicionados para captar dados dos aparelhos e os armazena num banco de dados na nuvem. O Smart Home, então, utiliza os dados armazenados nesse banco de dados.
+> Sensores são estrategicamente posicionados para captar dados dos aparelhos e os armazena num banco de dados na nuvem. O Smart Home, então, utiliza os dados armazenados nesse banco de dados.
 <br>
 
 
