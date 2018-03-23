@@ -20,15 +20,9 @@ O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas pode
 
 ### 3.MINI-MUNDO Novo<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
-> O sistema proposto é o Smart Home, que possibilitará o controle e monitoramento remoto (por meio da internet) de eletroeletrônicos de uma residência. O Smart Home permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.<br>
-> Uma versão cliente do Smart Home deve ser instalada nos PCs dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o PC esteja conectado à internet.<br>
-> Sensores são estrategicamente posicionados para captar dados dos aparelhos e os armazena num banco de dados na nuvem. O Smart Home, então, utiliza os dados armazenados nesse banco de dados.
+O sistema proposto é o Smart Home, que possibilitará o controle e monitoramento remoto (por meio da internet) de eletroeletrônicos de uma residência. O Smart Home permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.<br>
+Uma versão cliente do Smart Home deve ser instalada nos PCs dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o PC esteja conectado à internet.<br>
+Sensores são estrategicamente posicionados para captar dados dos aparelhos e os armazena num banco de dados na nuvem. O Smart Home, então, utiliza os dados armazenados nesse banco de dados.
 <br>
 
 
