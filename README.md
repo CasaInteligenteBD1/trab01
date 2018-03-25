@@ -27,11 +27,8 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos e os
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+[Propótipo - Jarvis : Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/3a77edd9fb45be0c516769015dbe6a74ddd23b9b/arquivos/Jarvis%20-%20Casa%20inteligente.pdf "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
