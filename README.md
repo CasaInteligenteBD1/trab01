@@ -11,11 +11,9 @@ Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
 Anne Caroline Silva: carolinesilva4@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+Com a evolução dos computadores e das conexões de rede sem fio foi possível o advento da Internet das coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si. O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo então, formas de facilitar e agilizar suas vidas.<br>
+Imaginando dois irmãos gêmeos idênticos, mesmo sendo iguais em aparência, eles passam por experiências diferentes durante a vida o que influencia, por exemplo, que tenham uma visão de mundo diferentes devido às diferentes informações que guardaram. Pode-se se fazer uma analogia a isso quando se pensa em casas inteligentes, na qual casas idênticas e com o mesmo sistema de IoT, mas com pessoas diferentes habitando nelas, guardam informações particulares a elas devido às diferentes rotinas e hábitos de seus moradores. Logo, a partir dos bancos de dados que armazenam a usabilidade de cada uma das casas extrai-se informações e padrões diferentes.
 
-> Com a evolução dos computadores e das conexões de rede sem fio foi possível a emersão da Internet das coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si.
-O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo, então, formas de facilitar e agilizar suas vidas.
 
 
 ### 3.MINI-MUNDO Novo<br>
