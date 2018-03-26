@@ -16,10 +16,17 @@ Imaginando dois irmãos gêmeos idênticos, mesmo sendo iguais em aparência, el
 
 
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
-O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residência. O Jarvis permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.</b><br>
-Uns dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-las a distância, ou então,determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas
+O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residências. O Jarvis permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.</b><br><br>
+
+Uns dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-as a distância, ou então, determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas.<br><br>
+
+A versão cliente do Jarvis é uma aplicativo que deve ser instalado nos smartphones dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o smartphone tenha conexão com à internet.<br><br>
+
+O Jarvis é adquirido com um usuário master, pré configurado, que tem permissão para adicionar ou remover novos locais (outra casas), usuários e seus níveis de permissão, imóveis, eletroeletrônicos, sensores. O nível de permissão determina quais funcionalidades um usuário terá acesso. Isso é desejável quando não se quer permitir que um usuário tenha o controle de algum aparelho específico, isso é útil para que uma criança não tenha o controle de um fogão, por exemplo.<br><br>
+
+Sensores são estrategicamente posicionados para captar dados dos aparelhos ou do ambiente e os armazenam num banco de dados na nuvem. O banco de dados também guardará os dados relacionados aos moradores (nome, idade, email e nível de acesso), aos cômodos (nome), à casa (nome, país, estado, bairro, logradouro e CEP), aos sensores (nome, descrição do que é capaz de monitorar) e aos eletroeletrônicos (nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status) que serão monitorados e controlados.
 <br>
 
 
