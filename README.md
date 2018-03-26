@@ -18,9 +18,8 @@ Imaginando dois irmãos gêmeos idênticos, mesmo sendo iguais em aparência, el
 
 ### 3.MINI-MUNDO Novo<br>
 
-O sistema proposto é o Smart Home, que possibilitará o controle e monitoramento remoto (por meio da internet) de eletroeletrônicos de uma residência. O Smart Home permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.<br>
-Uma versão cliente do Smart Home deve ser instalada nos PCs dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o PC esteja conectado à internet.<br>
-Sensores são estrategicamente posicionados para captar dados dos aparelhos e os armazena num banco de dados na nuvem. O Smart Home, então, utiliza os dados armazenados nesse banco de dados.
+O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residência. O Jarvis permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.</b><br>
+Uns dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-las a distância, ou então,determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas
 <br>
 
 
