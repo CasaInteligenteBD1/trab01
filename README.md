@@ -11,39 +11,43 @@ Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
 Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Com a evolução dos computadores e das conexões de rede sem fio foi possível o advento da Internet das coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si. O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo então, formas de facilitar e agilizar suas vidas.<br><br>
-Imaginando dois irmãos gêmeos idênticos, mesmo sendo iguais em aparência, eles passam por experiências diferentes durante a vida o que influencia, por exemplo, que tenham uma visão de mundo diferentes devido às diferentes informações que guardaram. Pode-se se fazer uma analogia a isso quando se pensa em casas inteligentes, na qual casas idênticas e com o mesmo sistema de IoT, mas com pessoas diferentes habitando nelas, guardam informações particulares a elas devido às diferentes rotinas e hábitos de seus moradores. Logo, a partir dos bancos de dados que armazenam a usabilidade de cada uma das casas extrai-se informações e padrões diferentes.
+
+Com a evolução dos computadores e das conexões de rede sem fio foi possível o advento da Internet das Coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si. O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo então, formas de facilitar e agilizar suas vidas.<br><br>
+Imaginando dois irmãos gêmeos idênticos, mesmo sendo iguais em aparência, eles passam por experiências diferentes durante a vida o que influencia, por exemplo, que tenham uma visão de mundo distinta devido às diferentes informações que guardaram. Pode-se fazer uma analogia a isso quando se pensa em casas inteligentes, na qual casas idênticas e com o mesmo sistema de IoT, mas com pessoas diferentes habitando nelas, guardam informações particulares a elas devido às diferentes rotinas e hábitos de seus moradores. Logo, a partir dos bancos de dados que armazenam a usabilidade de cada uma das casas extrai-se informações e padrões diferentes.
 <br>
 
+### 3.MINI-MUNDO
 
-### 3.MINI-MUNDO<br>
+<br>O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residências. O Jarvis permitirá ao usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.</b><br><br>
 
-O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residências. O Jarvis permitirá o usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa.</b><br><br>
+Um dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-as à distância, ou então, determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas.<br><br>
 
-Uns dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-as a distância, ou então, determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas.<br><br>
+A versão cliente do Jarvis é uma aplicativo que deve ser instalado nos smartphones dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o smartphone tenha conexão com a internet.<br><br>
 
-A versão cliente do Jarvis é uma aplicativo que deve ser instalado nos smartphones dos usuários, no qual cada um acessa o sistema através de um login e senha, desde que o smartphone tenha conexão com à internet.<br><br>
-
-O Jarvis é adquirido com um usuário master, pré configurado, que tem permissão para adicionar ou remover novos locais (outra casas), usuários e seus níveis de permissão, imóveis, eletroeletrônicos, sensores. O nível de permissão determina quais funcionalidades um usuário terá acesso. Isso é desejável quando não se quer permitir que um usuário tenha o controle de algum aparelho específico, isso é útil para que uma criança não tenha o controle de um fogão, por exemplo.<br><br>
+O Jarvis é adquirido com um usuário master, pré configurado, que tem permissão para adicionar ou remover novos locais (outra casas), usuários e seus níveis de permissão, imóveis, eletroeletrônicos, sensores. O nível de permissão determina a quais funcionalidades um usuário terá acesso. Isso é desejável quando não se quer permitir que um usuário tenha o controle de algum aparelho específico, sendo útil para que uma criança não tenha o controle de um fogão, por exemplo.<br><br>
 
 Sensores são estrategicamente posicionados para captar dados dos aparelhos ou do ambiente e os armazenam num banco de dados na nuvem. O banco de dados também guardará os dados relacionados aos moradores (nome, idade, email e nível de acesso), aos cômodos (nome), à casa (nome, país, estado, bairro, logradouro e CEP), aos sensores (nome, descrição do que é capaz de monitorar) e aos eletroeletrônicos (nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status) que serão monitorados e controlados.
 <br>
-
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 [Propótipo - Jarvis : Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/3a77edd9fb45be0c516769015dbe6a74ddd23b9b/arquivos/Jarvis%20-%20Casa%20inteligente.pdf "Title")
 
-#### 4.1 TABELA DE DADOS DO SISTEMA:
+#### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+    
+    <br>O sistema Jarvis precisa inicialmente dos seguintes relatórios:<br>
+    
+    <br>- Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP.<br>
+    <br>- Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso.<br>
+    <br>- Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status. <br>
+    <br>- Relatório relacionados aos sensores inclusos em cada casa, inclundo as seguintes informações: nome, descrição do que é capaz de monitorar. <br>
+    <br>- Relatório que informe os cômodos que serão monitorados na casai, inclundo a seguinte  informação: nome do cômodo. <br>
+    
+#### 4.2 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
-    
-    
-#### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
