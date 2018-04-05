@@ -36,12 +36,11 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
     <br>O sistema Jarvis precisa inicialmente dos seguintes relatórios:<br>
-    
-    <br>- Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP.<br>
-    <br>- Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso.<br>
-    <br>- Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status. <br>
-    <br>- Relatório relacionados aos sensores inclusos em cada casa, inclundo as seguintes informações: nome, descrição do que é capaz de monitorar. <br>
-    <br>- Relatório que informe os cômodos que serão monitorados na casai, inclundo a seguinte  informação: nome do cômodo. <br>
+    <br>- Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP.
+    - Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso.
+    - Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status.
+    - Relatório relacionados aos sensores inclusos em cada casa, inclundo as seguintes informações: nome, descrição do que é capaz de monitorar.
+    - Relatório que informe os cômodos que serão monitorados na casai, inclundo a seguinte  informação: nome do cômodo. <br>
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
