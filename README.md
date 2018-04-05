@@ -39,8 +39,8 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
     <br>- Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP.<br>
     <br>- Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso. <br>
     <br>- Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status. <br>
-   <br> - Relatório relacionados aos sensores inclusos em cada casa, inclundo as seguintes informações: nome, descrição do que é capaz de monitorar. <br>
-   <br> - Relatório que informe os cômodos que serão monitorados na casai, inclundo a seguinte  informação: nome do cômodo. <br>
+   <br> - Relatório relacionados aos sensores inclusos em cada casa, incluindo as seguintes informações: nome, descrição do que é capaz de monitorar. <br>
+   <br> - Relatório do consumo de energia do cômodos que serão monitorados na casa, incluindo as seguintes informações: nome do cômodo, quantidade de eletroeletrônicos, quantidade de lâmpadas. <br>
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
