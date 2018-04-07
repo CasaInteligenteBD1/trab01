@@ -44,7 +44,7 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     
-    [Tabela de Atributos e Registros - Casa Inteligente - Jarvis](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente.xlsx)
+    [Tabela de Atributos e Registros - Casa Inteligente - Jarvis](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente.xlsx"Title")
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
