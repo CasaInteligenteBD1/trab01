@@ -43,10 +43,8 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
    <br> - Relatório do consumo de energia do cômodos que serão monitorados na casa, incluindo as seguintes informações: nome do cômodo, quantidade de eletroeletrônicos, quantidade de lâmpadas. <br>
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
+    
+    [Tabela de Atributos e Registros - Casa Inteligente - Jarvis - Casa Inteligente.xlsx] (https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente.xlsx)
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
