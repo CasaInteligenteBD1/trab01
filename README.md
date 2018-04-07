@@ -31,7 +31,7 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Propótipo - Jarvis : Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/3a77edd9fb45be0c516769015dbe6a74ddd23b9b/arquivos/Jarvis%20-%20Casa%20inteligente.pdf "Title")
+[Propótipo - Jarvis : Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/3a77edd9fb45be0c516769015dbe6a74ddd23b9b/arquivos/Jarvis%20-%20Casa%20inteligente.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
@@ -44,7 +44,7 @@ Sensores são estrategicamente posicionados para captar dados dos aparelhos ou d
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     
-    [Tabela de Atributos e Registros - Casa Inteligente - Jarvis](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente.xlsx"Title")
+[Tabela de Atributos e Registros - Casa Inteligente - Jarvis](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente.xlsx"Title")
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
