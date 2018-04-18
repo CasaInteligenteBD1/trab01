@@ -17,7 +17,7 @@ Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
 
 ### 3.MINI-MUNDO
 
-<p align = "justify"> O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residências. O Jarvis permitirá ao usuário, para cada um dos eletroeletrônicos cadastrados no sistema, <b>ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa. </p>
+<p align = "justify"> O sistema proposto é a versão cliente do sistema <b>Jarvis</b>, que possibilitará que as pessoas tenham o controle e monitoramento remoto (por meio da internet) de seus eletroeletrônicos em suas residências. O Jarvis permitirá ao usuário, para cada um dos eletroeletrônicos cadastrados no sistema, ligar ou desligar, monitorar o consumo de energia e ainda permitirá o uso de ações automáticas como apagar todas as luzes da residência caso não haja ninguém em casa. </p>
 
 <p align = "justify"> Um dos grandes benefícios do Jarvis é o conforto, comodidade e economia. As pessoas não precisarão mais ficar reféns de vários controles remotos num simples ato de assistir a um filme utilizando o home theater. E também não precisarão se preocupar quando esquecerem as lâmpadas acesas ao saírem de casa, pois podem apagá-as à distância, ou então, determinar que sejam apagadas em determinado horário mesmo havendo pessoas em casa, isso é útil quando todos já dormiram e lâmpadas ficaram acesas. </p>
 
