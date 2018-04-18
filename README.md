@@ -33,7 +33,7 @@ Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
-<p align = "justify"> O sistema Jarvis precisa inicialmente dos seguintes relatórios: </p>>
+<p align = "justify"> O sistema Jarvis precisa inicialmente dos seguintes relatórios: </p>
 <p align = "justify"> - Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP. </p>
 <p align = "justify"> - Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso. </p>
 <p align = "justify"> - Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status. </p>
