@@ -3,12 +3,21 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
-### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-Andreângelo Patuzzo: andreangelo.pp@gmail.com<br>
-Anne Caroline Silva: carolinesilva4@gmail.com<br>
-Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
-Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
+### 1. COMPONENTES <br>
+
+<b>Integrantes do grupo: </b> <br>
+
+Andreângelo Patuzzo: andreangelo.pp@gmail.com <br>
+Anne Caroline Silva: carolinesilva4@gmail.com <br>
+Caicke Carvalho de Pinheiro: caicke@gmail.com <br>
+Emanuel Rampinelli: emanuel_rampinelli@hotmail.com <br>
+
+<b> Integrantes do grupo 2: </b> <br>
+
+Juliana Duarte Arcebi: juliana.acerbi@hotmail.com <br>
+Nilzilane Ramos Ricardo Garcia Tosta: naniramosricardo@hotmail.com <br>
+Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
+Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 
