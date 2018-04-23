@@ -51,7 +51,7 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     
-[Tabela de Atributos e Registros - Casa Inteligente - JARVIS](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente%203.xlsx)
+[Tabela de Atributos e Registros - Casa Inteligente - JARVIS](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Tabela%20de%20Atributos%20e%20Registros%20-%20Casa%20Inteligente%20-%20Jarvis%20-%20Casa%20Inteligente%203.xlsx)
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
