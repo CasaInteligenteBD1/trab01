@@ -56,21 +56,8 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO 
-        * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
-        * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
-        
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
-    
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
-        
-    
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/blob/master/images/casa_inteligente.jpg)
+
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
