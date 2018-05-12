@@ -63,12 +63,41 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    ENTIDADE MORADOR: 
+id_morador: É um atributo chave que irá identificar de forma única a entidade MORADOR, e por esse motivo será a chave primária no banco de dados.
+nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome.
+sexo: É um atributo simples (atômico) pois recebe um único valor, já que um morador só pode ser ou do sexo feminino ou do sexo masculino.
+data_nasc: É um atributo simples (atômico) pois recebe um único valor, já que um morador possui apenas uma data de nascimento.
+login: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas um login para acesso ao sistema.
+senha: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas uma senha para acessar o sistema.
+email: É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário.
+nivel_acesso: É um atributo multivalorado, já que um morador pode ter vários níveis de acesso diferentes para cada eletroeletrônico cadastrado no local. De acordo com o escopo inicial, o usuário pode ter apenas 2 níveis de acesso, porém, conforme o escopo for crescendo, a quantidade de níveis também pode aumentar. Por este motivo, é mais adequado que o atributo seja desse tipo.
+
+ENTIDADE LOCAL: 
+id_casa: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados.
+nome: é um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome.
+endereco: É um atributo composto pois um endereço é um elemento divisível, sendo composto por várias partes (logradouro, número, bairro, município, estado, país e CEP).
+
+ENTIDADE COMODO: 
+id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados.
+nome: é atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome.
+
+ENTIDADE SENSOR: 
+id_sensor: É um atributo chave que irá identificar de forma única a entidade SENSOR, e por esse motivo será a chave primária no banco de dados.
+nome: é atributo simples (atômico) pois recebe um único valor, já que cada sensor cadastrado pode receber apenas um único nome.
+
+ENTIDADE ELETROELETRONICO:
+id_eletro: É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados.
+nome: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome.
+
+ENTIDADE USO:
+data_eletro_ligado: É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em várias datas diferentes.
+data_eletro_desligado: É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em várias datas diferentes.
+hora_eletro_ligado: É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em vários horários diferentes.
+hora_eletro_desligado: É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em vários horários diferentes.
+consumo_mensal: É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada mês, e este consumo varia no decorrer do mês. Logo, se o usuário solicitar o consumo do mês de maio no dia 15, o valor calculado em KWh será diferente do valor caso seja se solicitado o consumo do mesmo mês no dia 30.
+consumo_anual: É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada ano, e este consumo varia no decorrer do ano. Logo, se o usuário solicitar o consumo do ano de 2017 na data 01 de junho, o valor calculado em KWh será diferente do valor caso seja solicitado o consumo do mesmo ano no dia 31 de dezembro.
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
