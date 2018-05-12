@@ -74,10 +74,10 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 <p align = "justify"> <b> email: </b> É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. </p>
 <p align = "justify"> <b> nivel_acesso: </b> É um atributo multivalorado, já que um morador pode ter vários níveis de acesso diferentes para cada eletroeletrônico cadastrado no local. De acordo com o escopo inicial, o usuário pode ter apenas 2 níveis de acesso, porém, conforme o escopo for crescendo, a quantidade de níveis também pode aumentar. Por este motivo, é mais adequado que o atributo seja desse tipo. </p>
 
-ENTIDADE LOCAL: 
-id_casa: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados.
-nome: é um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome.
-endereco: É um atributo composto pois um endereço é um elemento divisível, sendo composto por várias partes (logradouro, número, bairro, município, estado, país e CEP).
+<b> ENTIDADE LOCAL: </b>
+<p align = "justify"> <b> id_casa: </b> É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados. </p>
+<p align = "justify"> <b> nome: </b> É um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome. </p>
+<p align = "justify"> <b> endereco: </b> É um atributo composto pois um endereço é um elemento divisível, sendo composto por várias partes (logradouro, número, bairro, município, estado, país e CEP). </p>
 
 ENTIDADE COMODO: 
 id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados.
