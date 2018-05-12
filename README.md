@@ -56,7 +56,8 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
-[Modelo Conceitual - Casa Inteligente - JARVIS](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20JARVIS.png)
+
+![Alt text]((https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
