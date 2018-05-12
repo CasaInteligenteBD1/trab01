@@ -59,6 +59,10 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
+
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Notac%CC%A7a%CC%83o%20UML%20-%20%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
+
+
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
