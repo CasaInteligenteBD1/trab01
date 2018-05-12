@@ -92,6 +92,7 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 <p align = "justify"> <b> nome: </b> É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome. </p>
 
 <b> - Entidade UTILIZAÇÃO: </b>
+<p align = "justify"> <b> id_utilizacao: </b> É um atributo chave que irá identificar de forma única a entidade UTILIZACAO, e por esse motivo será a chave primária no banco de dados. </p>
 <p align = "justify"> <b> data_eletro_ligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em várias datas diferentes. </p>
 <p align = "justify"> <b> data_eletro_desligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em várias datas diferentes. </p>
 <p align = "justify"> <b> hora_eletro_ligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em vários horários diferentes. </p>
