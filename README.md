@@ -64,7 +64,7 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 
 #### 5.2 DECISÕES DE PROJETO
     
-ENTIDADE MORADOR: 
+<b> ENTIDADE MORADOR: </b> 
 <p align = "justify"> id_morador: É um atributo chave que irá identificar de forma única a entidade MORADOR, e por esse motivo será a chave primária no banco de dados. </p>
 <p align = "justify"> nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome. </p>
 <p align = "justify"> sexo: É um atributo simples (atômico) pois recebe um único valor, já que um morador só pode ser ou do sexo feminino ou do sexo masculino. </p>
