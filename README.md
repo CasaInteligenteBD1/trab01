@@ -74,22 +74,22 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 <p align = "justify"> <b> email: </b> É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. </p>
 <p align = "justify"> <b> nivel_acesso: </b> É um atributo multivalorado, já que um morador pode ter vários níveis de acesso diferentes para cada eletroeletrônico cadastrado no local. De acordo com o escopo inicial, o usuário pode ter apenas 2 níveis de acesso, porém, conforme o escopo for crescendo, a quantidade de níveis também pode aumentar. Por este motivo, é mais adequado que o atributo seja desse tipo. </p>
 
-<b> ENTIDADE LOCAL: </b>
+<b> Entidade Local: </b>
 <p align = "justify"> <b> id_casa: </b> É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados. </p>
 <p align = "justify"> <b> nome: </b> É um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome. </p>
 <p align = "justify"> <b> endereco: </b> É um atributo composto pois um endereço é um elemento divisível, sendo composto por várias partes (logradouro, número, bairro, município, estado, país e CEP). </p>
 
-ENTIDADE COMODO: 
-id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados.
-nome: é atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome.
+<b> Entidade Comodo: </b>
+<p align = "justify"> <b> id_comodo:  </b>É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados. </p>
+<p align = "justify"> <b> nome:  </b>É atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome. </p>
 
-ENTIDADE SENSOR: 
-id_sensor: É um atributo chave que irá identificar de forma única a entidade SENSOR, e por esse motivo será a chave primária no banco de dados.
-nome: é atributo simples (atômico) pois recebe um único valor, já que cada sensor cadastrado pode receber apenas um único nome.
+<b> Entidade Sensor:  </b>
+<p align = "justify"> <b> id_sensor: </b> É um atributo chave que irá identificar de forma única a entidade SENSOR, e por esse motivo será a chave primária no banco de dados. </p>
+<p align = "justify"> <b> nome: </b> É atributo simples (atômico) pois recebe um único valor, já que cada sensor cadastrado pode receber apenas um único nome. </p>
 
-ENTIDADE ELETROELETRONICO:
-id_eletro: É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados.
-nome: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome.
+<b> Entidade Eletroeletronico: </b>
+<p align = "justify"> <b> id_eletro: </b> É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados. </p>
+<p align = "justify"> <b> nome: </b> É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome. </p>
 
 ENTIDADE USO:
 data_eletro_ligado: É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em várias datas diferentes.
