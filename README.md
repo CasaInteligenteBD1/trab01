@@ -66,13 +66,13 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
     
 <b> Entidade Morador: </b> 
 <p align = "justify"> <b> id_morador: </b> É um atributo chave que irá identificar de forma única a entidade MORADOR, e por esse motivo será a chave primária no banco de dados. </p>
-<p align = "justify"> nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome. </p>
-<p align = "justify"> sexo: É um atributo simples (atômico) pois recebe um único valor, já que um morador só pode ser ou do sexo feminino ou do sexo masculino. </p>
-<p align = "justify"> data_nasc: É um atributo simples (atômico) pois recebe um único valor, já que um morador possui apenas uma data de nascimento. </p>
-<p align = "justify"> login: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas um login para acesso ao sistema. </p>
-<p align = "justify"> senha: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas uma senha para acessar o sistema. </p>
-<p align = "justify"> email: É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. </p>
-<p align = "justify"> nivel_acesso: É um atributo multivalorado, já que um morador pode ter vários níveis de acesso diferentes para cada eletroeletrônico cadastrado no local. De acordo com o escopo inicial, o usuário pode ter apenas 2 níveis de acesso, porém, conforme o escopo for crescendo, a quantidade de níveis também pode aumentar. Por este motivo, é mais adequado que o atributo seja desse tipo. </p>
+<p align = "justify"> <b> nome: </b> É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome. </p>
+<p align = "justify"> <b> sexo: </b> É um atributo simples (atômico) pois recebe um único valor, já que um morador só pode ser ou do sexo feminino ou do sexo masculino. </p>
+<p align = "justify"> <b> data_nasc: </b> É um atributo simples (atômico) pois recebe um único valor, já que um morador possui apenas uma data de nascimento. </p>
+<p align = "justify"> <b> login: </b> É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas um login para acesso ao sistema. </p>
+<p align = "justify"> <b> senha: </b> É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que o morador tenha apenas uma senha para acessar o sistema. </p>
+<p align = "justify"> <b> email: </b> É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. </p>
+<p align = "justify"> <b> nivel_acesso: </b> É um atributo multivalorado, já que um morador pode ter vários níveis de acesso diferentes para cada eletroeletrônico cadastrado no local. De acordo com o escopo inicial, o usuário pode ter apenas 2 níveis de acesso, porém, conforme o escopo for crescendo, a quantidade de níveis também pode aumentar. Por este motivo, é mais adequado que o atributo seja desse tipo. </p>
 
 ENTIDADE LOCAL: 
 id_casa: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados.
