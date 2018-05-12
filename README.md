@@ -91,13 +91,13 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 <p align = "justify"> <b> id_eletro: </b> É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados. </p>
 <p align = "justify"> <b> nome: </b> É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome. </p>
 
-ENTIDADE USO:
-data_eletro_ligado: É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em várias datas diferentes.
-data_eletro_desligado: É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em várias datas diferentes.
-hora_eletro_ligado: É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em vários horários diferentes.
-hora_eletro_desligado: É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em vários horários diferentes.
-consumo_mensal: É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada mês, e este consumo varia no decorrer do mês. Logo, se o usuário solicitar o consumo do mês de maio no dia 15, o valor calculado em KWh será diferente do valor caso seja se solicitado o consumo do mesmo mês no dia 30.
-consumo_anual: É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada ano, e este consumo varia no decorrer do ano. Logo, se o usuário solicitar o consumo do ano de 2017 na data 01 de junho, o valor calculado em KWh será diferente do valor caso seja solicitado o consumo do mesmo ano no dia 31 de dezembro.
+<b> Entidade Uso: </b>
+<p align = "justify"> <b> data_eletro_ligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em várias datas diferentes. </p>
+<p align = "justify"> <b> data_eletro_desligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em várias datas diferentes. </p>
+<p align = "justify"> <b> hora_eletro_ligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser ligado em vários horários diferentes. </p>
+<p align = "justify"> <b> hora_eletro_desligado: </b> É um atributo multivalorado, pois um eletroeletrônico pode ser desligado em vários horários diferentes. </p>
+<p align = "justify"> <b> consumo_mensal: </b> É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada mês, e este consumo varia no decorrer do mês. Logo, se o usuário solicitar o consumo do mês de maio no dia 15, o valor calculado em KWh será diferente do valor caso seja se solicitado o consumo do mesmo mês no dia 30. </p>
+<p align = "justify"> <b> consumo_anual: </b> É um atributo multivalorado, pois um eletroeletrônico possui um consumo diferente a cada ano, e este consumo varia no decorrer do ano. Logo, se o usuário solicitar o consumo do ano de 2017 na data 01 de junho, o valor calculado em KWh será diferente do valor caso seja solicitado o consumo do mesmo ano no dia 31 de dezembro. </p>
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
