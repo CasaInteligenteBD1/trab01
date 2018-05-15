@@ -14,8 +14,6 @@ Emanuel Rampinelli: emanuel_rampinelli@hotmail.com <br>
 
 <b> Integrantes do grupo 2: </b> <br>
 
-Juliana Duarte Arcebi: juliana.acerbi@hotmail.com <br>
-Nilzilane Ramos Ricardo Garcia Tosta: naniramosricardo@hotmail.com <br>
 Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 
