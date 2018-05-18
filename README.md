@@ -62,8 +62,8 @@ Rebeca Borlini Encarnação: rebecaborlini@gmail.com <br>
 
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    Estaciona: Andreângelo, Emmanuel, Caicke e Ane
+    Super Market: Antônio, Jeniffer, Joel e Larissa
 
 #### 5.2 DECISÕES DE PROJETO
     
