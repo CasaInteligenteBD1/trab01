@@ -47,7 +47,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <b> RN05: </b> O sistema deve ter um único Usuário Master. <br>
 <b> RN06: </b> Todos os equipamentos devem possuir alternativa de controle manual. <br>
 <b> RN07: </b> Todo eletroeletrônico atendido pelo aplicativo precisa ser cadastrado para que seja controlado. <br>
-<b> RN08: </b> Existem restrições ou não para cada Usuário Administrador, onde depende do Usuário Master restringir ou não um equipamento a ele. <br>
+<b> RN08: </b> Existem restrições ou não para cada Usuário Comum, onde depende do Usuário Master restringir ou não um equipamento a ele. <br>
 <b> RN09: </b> O relatório de consumo de energia deve gerar uma estimativa de consumo de acordo com o período selecionado pelo usuário. <br>
 <b> RN10: </b> A estimativa de consumo gerada no relatório de consumo de energia refere-se à três informações: ao gasto de energia por eletroeletrônico dentre todos presentes no local em KWh, ao gasto total de energia em KWh (soma dos gastos de cada equipamento) e à estimativa de valor gasto naquele período. <br>
 <b> RN11: </b> Deve ser possível cadastrar no máximo seis locais/ambientes. <br>
@@ -59,7 +59,6 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <b> RN17: </b> Somente é possível cadastrar cômodos se um local já estiver cadastrado. Da mesma forma, somente é possível cadastrar moradores e eletroeletrônicos se os cômodos estiverem cadastrados. <br>
 <b> RN18: </b> O sistema deve manter o histórico de consumo de energia. Portanto, é possível selecionar um período passado. <br>
 <b> RN19: </b> Deve haver dispositivo de contenção para caso de falta de energia. <br>
-
 
 ### 4 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
