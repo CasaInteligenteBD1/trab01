@@ -258,11 +258,9 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 [Create + Insert](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/CreateInsert.sql)
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+
+[Drop + Create + Insert](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/DropCreateInsert.sql)
+
 >## Marco de Entrega 03 em: (14/05/2018)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
