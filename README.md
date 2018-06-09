@@ -101,77 +101,76 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 #### 5.2 DECISÕES DE PROJETO
     
-<p align=justify> •	Foi normalizado o endereço para padronizar os dados, evitando o armazenamento de vários dados  que representem a mesma coisa.
-•	Optou-se por não criar uma entidade sensor já que, para o projeto inicial, existe apenas um tipo de sensor para todos os eletroeletrônicos.
-•	Foi criada a entidade DATA_USO para que estabelecesse uma relação de utilização do eletroeletrônico em uma determinada data sem que houvesse o armazenamento de muitas datas repetidas. Sem essa tabela, o número de dados redundantes seria muito grande. Se um eletroeletrônico fosse ligado e desligado dez vezes em um mesmo dia, iria armazenar a mesma data dez vezes.
-•	Apesar de existirem apenas dois níveis de acesso aos eletroeletrônicos no projeto inicial, optou-se por criar a entidade NIVEL_ACESSO, pensando na possibilidade de existirem mais níveis de permissão com o desenvolvimento do projeto. </p>
+•	Foi normalizado o endereço para padronizar os dados, evitando o armazenamento de vários dados  que representem a mesma coisa. <br>
+•	Optou-se por não criar uma entidade sensor já que, para o projeto inicial, existe apenas um tipo de sensor para todos os eletroeletrônicos. <br>
+•	Foi criada a entidade DATA_USO para que estabelecesse uma relação de utilização do eletroeletrônico em uma determinada data sem que houvesse o armazenamento de muitas datas repetidas. Sem essa tabela, o número de dados redundantes seria muito grande. Se um eletroeletrônico fosse ligado e desligado dez vezes em um mesmo dia, iria armazenar a mesma data dez vezes. <br>
+•	Apesar de existirem apenas dois níveis de acesso aos eletroeletrônicos no projeto inicial, optou-se por criar a entidade NIVEL_ACESSO, pensando na possibilidade de existirem mais níveis de permissão com o desenvolvimento do projeto. <br>
 
-Em relação aos tipos dos atributos de cada tabela:
+Em relação aos tipos dos atributos de cada tabela: <br>
 
-ENTIDADE PESSOA: É uma entidade forte, pois não necessita de outra entidade para existir.
+ENTIDADE PESSOA: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
-•	id_pessoa: É um atributo chave que irá identificar de forma única a entidade PESSOA, e por esse motivo será a chave primária no banco de dados.
-•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome.
-•	data_nasc: É um atributo simples (atômico) pois recebe um único valor, já que um morador possui apenas uma data de nascimento.
-•	login: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que a pessoa tenha apenas um login para acesso ao sistema.
-•	senha: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que a pessoa tenha apenas uma senha para acessar o sistema.
-•	email: É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário.
+•	id_pessoa: É um atributo chave que irá identificar de forma única a entidade PESSOA, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome. <br>
+•	data_nasc: É um atributo simples (atômico) pois recebe um único valor, já que um morador possui apenas uma data de nascimento. <br>
+•	login: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que a pessoa tenha apenas um login para acesso ao sistema. <br>
+•	senha: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que a pessoa tenha apenas uma senha para acessar o sistema. <br>
+•	email: É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. <br>
 
-ENTIDADE LOCAL: É uma entidade forte, pois não necessita de outra entidade para existir.
+ENTIDADE LOCAL: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
-•	id_local: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados.
-•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome.
+•	id_local: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE ENDERECO: 
+ENTIDADE ENDERECO:  <br>
 
-•	id_endereco: É um atributo chave que irá identificar de forma única a entidade ENDERECO, e por esse motivo será a chave primária no banco de dados.
-•	cep: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único CEP.
-•	logradouro: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único logradouro.
-•	numero: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado recebe apenas um único número referente ao logradouro.
+•	id_endereco: É um atributo chave que irá identificar de forma única a entidade ENDERECO, e por esse motivo será a chave primária no banco de dados. <br>
+•	cep: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único CEP. <br>
+•	logradouro: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único logradouro. <br>
+•	numero: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado recebe apenas um único número referente ao logradouro. <br>
 
-ENTIDADE BAIRRO:
+ENTIDADE BAIRRO: <br>
 
-•	id_bairro: É um atributo chave que irá identificar de forma única a entidade BAIRRO, e por esse motivo será a chave primária no banco de dados.
-•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um bairro cadastrado recebe apenas um único nome.
+•	id_bairro: É um atributo chave que irá identificar de forma única a entidade BAIRRO, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um bairro cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE MUNICIPIO:
+ENTIDADE MUNICIPIO: <br>
 
-•	id_municipio: É um atributo chave que irá identificar de forma única a entidade MUNICIPIO, e por esse motivo será a chave primária no banco de dados.
-•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um município cadastrado recebe apenas um único nome.
+•	id_municipio: É um atributo chave que irá identificar de forma única a entidade MUNICIPIO, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um município cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE ESTADO:
+ENTIDADE ESTADO: <br>
 
-•	id_estado: É um atributo chave que irá identificar de forma única a entidade ESTADO, e por esse motivo será a chave primária no banco de dados.
-•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um estado cadastrado recebe apenas um único nome.
+•	id_estado: É um atributo chave que irá identificar de forma única a entidade ESTADO, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É um atributo simples (atômico) pois recebe um único valor, já que um estado cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE COMODO: É uma entidade fraca, pois necessita da entidade LOCAL para existir. Sem um local, um cômodo não existe.
+ENTIDADE COMODO: É uma entidade fraca, pois necessita da entidade LOCAL para existir. Sem um local, um cômodo não existe. <br>
 
-•	id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados.
-•	nome: É atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome.
+•	id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome. <br>
 
-ENTIDADE ELETROELETRONICO: É uma entidade forte, pois não necessita de outra entidade para existir.
+ENTIDADE ELETROELETRONICO: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
-•	id_eletro: É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados.
-•	nome: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome.
-•	status: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico so pode estar ligado ou desligado em um determinado momento.
-•	hora: É atributo simples (atômico) pois recebe um único valor.
-•	potencia: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas uma potência (em Watts).
+•	id_eletro: É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados. <br>
+•	nome: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome. <br>
+•	status: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico so pode estar ligado ou desligado em um determinado momento. <br>
+•	hora: É atributo simples (atômico) pois recebe um único valor. <br>
+•	potencia: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas uma potência (em Watts). <br>
 
-ENTIDADE DATA_USO:
+ENTIDADE DATA_USO: <br>
 
-•	id_data: É um atributo chave que irá identificar de forma única a entidade DATA_USO, e por esse motivo será a chave primária no banco de dados.
-•	data_uso: É um atributo simples (atômico) utilizado para armazenar várias datas diferentes dentro de uma tabela de datas.
+•	id_data: É um atributo chave que irá identificar de forma única a entidade DATA_USO, e por esse motivo será a chave primária no banco de dados. <br>
+•	data_uso: É um atributo simples (atômico) utilizado para armazenar várias datas diferentes dentro de uma tabela de datas. <br>
 
-ENTIDADE UTILIZACAO_ELETRO: É uma entidade associativa, devido à necessidade de associar esta entidade ao relacionamento Utiliza.
+ENTIDADE UTILIZACAO_ELETRO: É uma entidade associativa, devido à necessidade de associar esta entidade ao relacionamento Utiliza. <br>
 
-•	id_utilizacao: É um atributo chave que irá identificar de forma única a entidade UTILIZACAO, e por esse motivo será a chave primária no banco de dados.
-•	consumo_kwh: É um atributo derivado, pois através de um cálculo realizado com a potência do eletroeletrônico obtêm-se o consumo em KWh, e através deste consumo é possível saber o consumo semanal, mensal, anual ou em reais (moeda).
+•	id_utilizacao: É um atributo chave que irá identificar de forma única a entidade UTILIZACAO, e por esse motivo será a chave primária no banco de dados. <br>
+•	consumo_kwh: É um atributo derivado, pois através de um cálculo realizado com a potência do eletroeletrônico obtêm-se o consumo em KWh, e através deste consumo é possível saber o consumo semanal, mensal, anual ou em reais (moeda). <br>
 
-ENTIDADE NIVEL_ACESSO:
+ENTIDADE NIVEL_ACESSO: <br>
 
-•	id_permissao: É um atributo chave que irá identificar de forma única a entidade NIVEL_ACESSO, e por esse motivo será a chave primária no banco de dados.
-•	descricao: É atributo simples (atômico) pois recebe um único valor, pois um tipo de permissão possui uma única descrição.
-
+•	id_permissao: É um atributo chave que irá identificar de forma única a entidade NIVEL_ACESSO, e por esse motivo será a chave primária no banco de dados. <br>
+•	descricao: É atributo simples (atômico) pois recebe um único valor, pois um tipo de permissão possui uma única descrição. <br>
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
