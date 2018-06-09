@@ -38,6 +38,28 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> O aplicativo deve notificar os usuários quando algum eletroeletrônico estiver inacessível e os equipamentos devem possuir uma forma de desligamento manual a fim de garantir uma maior segurança aos moradores. A cobrança será mensal e o valor da cota de cobrança será proporcional ao número de usuários cadastrados em cada conta, pelo tempo que o cliente estiver utilizando o  aplicativo. </p>
 
+<p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
+
+RN01	Todo usuário do sistema deve ser cadastrado.
+RN02	Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados.
+RN03	A cobrança pela utilização do aplicativo será realizada mensalmente.
+RN04	O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta.
+RN05	O sistema deve ter um único Usuário Master.
+RN06	Todos os equipamentos devem possuir alternativa de controle manual.
+RN07	Todo eletroeletrônico atendido pelo aplicativo precisa ser cadastrado para que seja controlado.
+RN08	Existem restrições ou não para cada Usuário Administrador, onde depende do Usuário Master restringir ou não um equipamento a ele.
+RN09	O relatório de consumo de energia deve gerar uma estimativa de consumo de acordo com o período selecionado pelo usuário. 
+RN10	A estimativa de consumo gerada no relatório de consumo de energia refere-se à três informações: ao gasto de energia por eletroeletrônico dentre todos presentes no local em KWh, ao gasto total de energia em KWh (soma dos gastos de cada equipamento) e à estimativa de valor gasto naquele período.
+RN11	Deve ser possível cadastrar no máximo seis locais/ambientes.
+RN12	O pagamento mensal pelo contrato do sistema pode ser realizado por boleto bancário, cartão de crédito ou débito.
+RN13	Apenas pessoas com idade maior ou igual a 18 anos podem contratar o sistema.
+RN14	Para contratar o sistema é necessário realizar um cadastro pelo site do JARVIS, a partir do qual é possível acessá-lo sem a necessidade de um novo cadastro pelo aplicativo.
+RN15	Após realizar o cadastro, o aplicativo somente será liberado para uso após confirmação do pagamento.
+RN16	Clientes em atraso têm até 15 dias para realizar o pagamento. Após esse período, o aplicativo será desativado para uso.
+RN17	Somente é possível cadastrar cômodos se um local já estiver cadastrado. Da mesma forma, somente é possível cadastrar moradores e eletroeletrônicos se os cômodos estiverem cadastrados.
+RN18	O sistema deve manter o histórico de consumo de energia. Portanto, é possível selecionar um período passado.
+RN19	Deve haver dispositivo de contenção para caso de falta de energia.
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
