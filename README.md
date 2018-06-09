@@ -40,7 +40,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
 
-<b> RN01: </b> Todo usuário do sistema deve ser cadastrado. <br>
+<align = "justify"> <b> RN01: </b> Todo usuário do sistema deve ser cadastrado. <br>
 <b> RN02: </b> Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados. <br>
 <b> RN03: </b> A cobrança pela utilização do aplicativo será realizada mensalmente. <br>
 <b> RN04: </b> O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta. <br>
