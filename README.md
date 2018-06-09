@@ -266,9 +266,28 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 >## Marco de Entrega 03 em: (14/05/2018)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+
+    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.
+    
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+    select * from comodo;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20comodo.PNG "Select - Cômodos")
+
+    select * from eletroeletronico;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20eletroeletronico.PNG "Select - Eletroeletrônicos")
+
+    select * from local;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20local.PNG "Select - Local")
+
+    select * from nivel_acesso;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20nivel_acesso.PNG "Select - Nível Acesso")
+
+    select * from pessoa;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20pessoa.PNG "Select - Pessoa")
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
