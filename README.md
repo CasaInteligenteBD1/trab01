@@ -66,12 +66,17 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
-<p align = "justify"> O sistema Jarvis precisa inicialmente dos seguintes relatórios: </p>
-<p align = "justify"> - Relatório que informe as casas cadastradas, incluindo as seguintes informações: nome, país, estado, bairro, logradouro e CEP. </p>
-<p align = "justify"> - Relatório que informe os dados relacionados aos moradores de cada casa, incluindo as seguintes informações: nome, idade, e-mail, nível de acesso. </p>
-<p align = "justify"> - Relatório que informe os eletroetrônicos de uma casa que serão monitorados e controlados, incluindo as seguintes informações: nome, consumo de energia do eletroeletrônico, data/hora que foi ligado, data/hora que foi desligado e status. </p>
-<p align = "justify"> - Relatório relacionado aos sensores inclusos em cada casa, incluindo as seguintes informações: nome, descrição do que é capaz de monitorar. </p>
-<p align = "justify"> - Relatório do consumo de energia do cômodos que serão monitorados na casa, incluindo as seguintes informações: nome do cômodo, quantidade de eletroeletrônicos, quantidade de lâmpadas. </p>
+<p align = "justify"> O sistema JARVIS precisa inicialmente dos seguintes relatórios: </p>
+
+<p align = "justify"> - Relatório dos locais cadastrados em cada conta de Usuário Master, incluindo as seguintes informações: nome do local, nome do Usuário Master, país, estado, município, bairro, logradouro, número e CEP. </p>
+
+<p align = "justify"> - Relatório que informe os dados relacionados às pessoas de cada local e sua relação de acesso aos eletroeletrônicos, incluindo as seguintes informações: nome da pessoa, idade, e-mail, nome do eletroeletrônico, tipo do eletroeletrônico, cômodo em que está o eletroeletrônico e nível de acesso por eletroeletrônico. </p>
+
+<p align = "justify"> - Relatório que informe os eletroetrônicos de um local, incluindo as seguintes informações: nome do eletroeletrônico, local onde está o eletroeletrônico, cômodo em que está o eletroeletrônico, tipo de eletroeletrônico. </p>
+
+<p align = "justify">  - Relatório que informe o periodo do mês de maior utilização de eletroeletrônicos: nome do eletroeletrônico, status do eletroeletrônico, datas de interval, horas de intervalo. </p>
+
+<p align = "justify"> - Relatório do consumo de energia dos locais/ambientes cadastrados, incluindo as seguintes informações: nome do local, nome do eletroeletrônico, potência do eletroeletrônico, consumo em KWh por eletroeletrônico, consumo total em KWh, consumo total em reais (R$) e datas de intervalo. </p>
     
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     
