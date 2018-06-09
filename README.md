@@ -86,11 +86,9 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 5. MODELO CONCEITUAL<br>
 
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20-%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
-
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Notac%CC%A7a%CC%83o%20UML%20-%20%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
-
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes%20-%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
 
 #### 5.1 Validação do Modelo Conceitual
     Estaciona: Andreângelo, Emanuel, Caicke e Anne Caroline
@@ -144,9 +142,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+        ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20JARVIS.png "Modelo Lógico - JARVIS")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
