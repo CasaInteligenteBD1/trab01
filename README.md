@@ -245,20 +245,18 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20JARVIS.png "Modelo Lógico - JARVIS")
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+
+[Modelo Físico](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/ModeloFisico.sql)
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
+
+[Insert](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Insert.sql)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+
+[Create + Insert](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/CreateInsert.sql)
+
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
