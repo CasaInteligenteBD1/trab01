@@ -3,20 +3,20 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
-### 1. COMPONENTES <br>
+### 1 COMPONENTES <br>
 
-<b>Integrantes do grupo: </b> <br>
+<b> Integrantes do grupo (Casa Inteligente -> Estaciona): </b> <br>
 
 Andreângelo Patuzzo: andreangelo.pp@gmail.com <br>
 Anne Caroline Silva: carolinesilva4@gmail.com <br>
 Caicke Carvalho de Pinheiro: caicke@gmail.com <br>
 Emanuel Rampinelli: emanuel_rampinelli@hotmail.com <br>
 
-<b> Integrantes do grupo 2: </b> <br>
+<b> Integrantes do grupo 2 (EasyMarket -> Casa Inteligente): </b> <br>
 
 Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
-### 2.INTRODUÇÃO E MOTIVAÇÃO <br>
+### 2 INTRODUÇÃO E MOTIVAÇÃO <br>
 
 <p align = "justify"> Com a evolução dos computadores e das conexões de rede sem fio foi possível o advento da Internet das Coisas (IoT - Internet of Things), possibilitando a comunicação de equipamentos eletrônicos com a internet e entre si. O IoT é base para o desenvolvimento de casas inteligentes, onde as pessoas podem, por exemplo, gerenciar equipamentos que estão em suas casas através da internet e reconhecer padrões, trazendo então, formas de facilitar e agilizar suas vidas. </p>
 
@@ -24,7 +24,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> Um ambiente automatizado, mais conhecido como Casa Inteligente, necessita de uma tecnologia de apoio. JARVIS é um sistema mobile que auxilia no controle de alguns eletroeletrônicos, equipamentos e outros itens disponíveis em ambientes (familiares e/ou empresariais) que dispõem de projetos de automação residencial. O sistema irá atuar diretamente no dia a dia do usuário, proporcionando a ele praticidade, conforto e até mesmo segurança. </p>
 
-### 3.MINI-MUNDO
+### 3 MINI-MUNDO
 
 <p align = "justify"> O cliente deseja um sistema para controle de ambientes residenciais e/ou empresariais, com projetos de automatização. O aplicativo deve permitir às pessoas que, através de um botão, consigam realizar funções como: acender e apagar as lâmpadas e ligar e desligar eletroeletrônicos. JARVIS oferece uma tecnologia de sistema integrado capaz de controlar remotamente todos os cômodos de um ambiente utilizando um dispositivo mobile. O aplicativo pode ser utilizado em qualquer local que possua projetos de automatização e que contenha equipamentos os quais o aplicativo atende. </p>
 
@@ -40,8 +40,8 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
 
-RN01	Todo usuário do sistema deve ser cadastrado.
-RN02	Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados.
+RN01	Todo usuário do sistema deve ser cadastrado. <br>
+RN02	Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados. <br>
 RN03	A cobrança pela utilização do aplicativo será realizada mensalmente.
 RN04	O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta.
 RN05	O sistema deve ter um único Usuário Master.
@@ -61,7 +61,7 @@ RN18	O sistema deve manter o histórico de consumo de energia. Portanto, é poss
 RN19	Deve haver dispositivo de contenção para caso de falta de energia.
 
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
+### 4 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
 [Propótipos - JARVIS - Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Jarvis%20-%20Casa%20inteligente.pdf)
 
@@ -80,7 +80,7 @@ RN19	Deve haver dispositivo de contenção para caso de falta de energia.
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
-### 5.MODELO CONCEITUAL<br>
+### 5. MODELO CONCEITUAL<br>
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
