@@ -106,9 +106,9 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 •	Foi criada a entidade DATA_USO para que estabelecesse uma relação de utilização do eletroeletrônico em uma determinada data sem que houvesse o armazenamento de muitas datas repetidas. Sem essa tabela, o número de dados redundantes seria muito grande. Se um eletroeletrônico fosse ligado e desligado dez vezes em um mesmo dia, iria armazenar a mesma data dez vezes. <br>
 •	Apesar de existirem apenas dois níveis de acesso aos eletroeletrônicos no projeto inicial, optou-se por criar a entidade NIVEL_ACESSO, pensando na possibilidade de existirem mais níveis de permissão com o desenvolvimento do projeto. <br>
 
-Em relação aos tipos dos atributos de cada tabela: <br>
+<b> Em relação aos tipos dos atributos de cada tabela: </b> <br>
 
-ENTIDADE PESSOA: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
+<b> ENTIDADE PESSOA: </b> É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
 •	id_pessoa: É um atributo chave que irá identificar de forma única a entidade PESSOA, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É um atributo simples (atômico) pois recebe um único valor, já que um morador só possui um único nome. <br>
@@ -117,39 +117,39 @@ ENTIDADE PESSOA: É uma entidade forte, pois não necessita de outra entidade pa
 •	senha: É um atributo simples (atômico) pois recebe um único valor, ou seja, é possível que a pessoa tenha apenas uma senha para acessar o sistema. <br>
 •	email: É um atributo simples (atômico) pois recebe um único valor, já que optamos pelo cadastro de apenas uma conta de e-mail por usuário. <br>
 
-ENTIDADE LOCAL: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
+<b> ENTIDADE LOCAL: </b> É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
 •	id_local: É um atributo chave que irá identificar de forma única a entidade LOCAL, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É um atributo simples (atômico) pois recebe um único valor, já que um local cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE ENDERECO:  <br>
+<b> ENTIDADE ENDERECO: </b> <br>
 
 •	id_endereco: É um atributo chave que irá identificar de forma única a entidade ENDERECO, e por esse motivo será a chave primária no banco de dados. <br>
 •	cep: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único CEP. <br>
 •	logradouro: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado tem apenas um único logradouro. <br>
 •	numero: É um atributo simples (atômico) pois recebe um único valor, já que um endereço cadastrado recebe apenas um único número referente ao logradouro. <br>
 
-ENTIDADE BAIRRO: <br>
+<b> ENTIDADE BAIRRO: </b> <br>
 
 •	id_bairro: É um atributo chave que irá identificar de forma única a entidade BAIRRO, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É um atributo simples (atômico) pois recebe um único valor, já que um bairro cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE MUNICIPIO: <br>
+<b> ENTIDADE MUNICIPIO: </b> <br>
 
 •	id_municipio: É um atributo chave que irá identificar de forma única a entidade MUNICIPIO, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É um atributo simples (atômico) pois recebe um único valor, já que um município cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE ESTADO: <br>
+<b> ENTIDADE ESTADO: </b> <br>
 
 •	id_estado: É um atributo chave que irá identificar de forma única a entidade ESTADO, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É um atributo simples (atômico) pois recebe um único valor, já que um estado cadastrado recebe apenas um único nome. <br>
 
-ENTIDADE COMODO: É uma entidade fraca, pois necessita da entidade LOCAL para existir. Sem um local, um cômodo não existe. <br>
+<b> ENTIDADE COMODO: </b> É uma entidade fraca, pois necessita da entidade LOCAL para existir. Sem um local, um cômodo não existe. <br>
 
 •	id_comodo: É um atributo chave que irá identificar de forma única a entidade COMODO, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É atributo simples (atômico) pois recebe um único valor, já que cada cômodo do local só pode receber apenas um nome. <br>
 
-ENTIDADE ELETROELETRONICO: É uma entidade forte, pois não necessita de outra entidade para existir. <br>
+<b> ENTIDADE ELETROELETRONICO: </b> É uma entidade forte, pois não necessita de outra entidade para existir. <br>
 
 •	id_eletro: É um atributo chave que irá identificar de forma única a entidade ELETROELETRONICO, e por esse motivo será a chave primária no banco de dados. <br>
 •	nome: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas um nome. <br>
@@ -157,17 +157,17 @@ ENTIDADE ELETROELETRONICO: É uma entidade forte, pois não necessita de outra e
 •	hora: É atributo simples (atômico) pois recebe um único valor. <br>
 •	potencia: É atributo simples (atômico) pois recebe um único valor, pois um eletreletrônico possui apenas uma potência (em Watts). <br>
 
-ENTIDADE DATA_USO: <br>
+<b> ENTIDADE DATA_USO: </b> <br>
 
 •	id_data: É um atributo chave que irá identificar de forma única a entidade DATA_USO, e por esse motivo será a chave primária no banco de dados. <br>
 •	data_uso: É um atributo simples (atômico) utilizado para armazenar várias datas diferentes dentro de uma tabela de datas. <br>
 
-ENTIDADE UTILIZACAO_ELETRO: É uma entidade associativa, devido à necessidade de associar esta entidade ao relacionamento Utiliza. <br>
+<b> ENTIDADE UTILIZACAO_ELETRO: </b> É uma entidade associativa, devido à necessidade de associar esta entidade ao relacionamento Utiliza. <br>
 
 •	id_utilizacao: É um atributo chave que irá identificar de forma única a entidade UTILIZACAO, e por esse motivo será a chave primária no banco de dados. <br>
 •	consumo_kwh: É um atributo derivado, pois através de um cálculo realizado com a potência do eletroeletrônico obtêm-se o consumo em KWh, e através deste consumo é possível saber o consumo semanal, mensal, anual ou em reais (moeda). <br>
 
-ENTIDADE NIVEL_ACESSO: <br>
+<b> ENTIDADE NIVEL_ACESSO: </b> <br>
 
 •	id_permissao: É um atributo chave que irá identificar de forma única a entidade NIVEL_ACESSO, e por esse motivo será a chave primária no banco de dados. <br>
 •	descricao: É atributo simples (atômico) pois recebe um único valor, pois um tipo de permissão possui uma única descrição. <br>
