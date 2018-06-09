@@ -41,9 +41,9 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
 
 <br align = "justify"> <b> RN01: </b> Todo usuário do sistema deve ser cadastrado. <br>
-<b> RN02: </b> Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados. <br>
-<b> RN03: </b> A cobrança pela utilização do aplicativo será realizada mensalmente. <br>
-<b> RN04: </b> O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta. <br>
+<br align = "justify"> <b> RN02: </b> Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados. <br>
+<br align = "justify"> <b> RN03: </b> A cobrança pela utilização do aplicativo será realizada mensalmente. <br>
+<br align = "justify"> <b> RN04: </b> O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta. <br>
 <b> RN05: </b> O sistema deve ter um único Usuário Master. <br>
 <b> RN06: </b> Todos os equipamentos devem possuir alternativa de controle manual. <br>
 <b> RN07: </b> Todo eletroeletrônico atendido pelo aplicativo precisa ser cadastrado para que seja controlado. <br>
