@@ -302,6 +302,22 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    
+    select * from eletroeletronico where status='Ligado' and potencia<300;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20%20from%20eletroeletronico%20where%20status%3D'Ligado'%20and%20potencia300%3B.PNG "Operadores Lógicos 1")
+    
+    select * from eletroeletronico where hora>='12:00:00' and hora<='20:00:00';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20%20from%20eletroeletronico%20where%20hora'120000'%20and%20hora'200000'%3B.PNG "Operadores Lógicos 2")    
+    
+    select * from comodo where not fk_local=4 and not fk_local=5 and not fk_local=7 and not fk_local=8 and not fk_local=10;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20%20from%20comodo%20where%20not%20fk_local%3D4%20and%20not%20fk_local%3D5%20and%20not%20fk_local%3D7%20and%20not%20fk_local%3D8%20and%20not%20fk_local%3D10.PNG "Operadores Lógicos 3")    
+    
+    select * from comodo where nome='Sala' or nome='Sala Principal' or nome='Sala Entrada' or nome='Minha Sala';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20%20from%20comodo%20where%20nome%3D'Sala'%20or%20nome%3D'Sala%20Principal'%20or%20nome%3D'Sala%20Entrada'or%20nome%3D'Minha%20Sala'.PNG "Operadores Lógicos 4")    
+    
+    select * from eletroeletronico where (nome='TV' or nome='TV Samsung' or nome='42"') and (hora<'12:00:00') and (not potencia=2.0);
+ ![Alt text]( "Operadores Lógicos 5")   
+    
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
