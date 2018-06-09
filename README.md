@@ -178,56 +178,56 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <b> ENTIDADE PESSOA: </b> Tabela que armazena os dados pessoais dos usuários (Master ou Comum) do aplicativo JARVIS. <br>
 
 •	id_pessoa: Campo do tipo serial que contém o código identificador de cada pessoa/usuário do aplicativo. <br>
-•	nome: Campo do tipo varchar que armazena o nome da pessoa. Exemplo: “Maria da Silva”. <br>
-•	data_nasc: Campo do tipo date que armazena a data de nascimento da pessoa. Exemplo: “20/06/1980”.  <br>
-•	login: Campo do tipo varchar que armazena o nome do login de acesso da pessoa no aplicativo. Exemplo: “maria.dasilva”. <br>
-•	senha: Campo do tipo varchar que armazena a senha de acesso da pessoa no aplicativo. Exemplo: “maria@123s80”. <br>
-•	email: Campo do tipo varchar que armazena o endereço de e-mail da pessoa. Exemplo: “mariadasilva@gmail.com”. <br>
+•	nome: Campo do tipo varchar que armazena o nome da pessoa. Exemplo: 'Maria da Silva'. <br>
+•	data_nasc: Campo do tipo date que armazena a data de nascimento da pessoa. Exemplo: '20/06/1980'.  <br>
+•	login: Campo do tipo varchar que armazena o nome do login de acesso da pessoa no aplicativo. Exemplo: 'maria.dasilva'. <br>
+•	senha: Campo do tipo varchar que armazena a senha de acesso da pessoa no aplicativo. Exemplo: 'maria@123s80'. <br>
+•	email: Campo do tipo varchar que armazena o endereço de e-mail da pessoa. Exemplo: 'mariadasilva@gmail.com'. <br>
 
 <b> ENTIDADE LOCAL: </b> Tabela que armazena os dados dos locais/ambientes que serão adicionados pelo Master. <br>
 
 •	id_casa: Campo do tipo serial que contém o código identificador de cada local (casa, escritório, empresa) cadastrado em um conta. <br>
-•	nome: Campo do tipo varchar que armazena o nome fictício dado a cada local. Exemplo: “Casa da Maria”. <br>
+•	nome: Campo do tipo varchar que armazena o nome fictício dado a cada local. Exemplo: 'Casa da Maria'. <br>
 
 <b> ENTIDADE ENDERECO: </b> Tabela que armazena os dados do endereço onde localiza-se o local. <br>
 
 •	id_endereco: Campo do tipo serial que contém o código identificador de cada endereço referente a cada local. <br>
-•	cep: Campo do tipo char que armazena o Código de Endereçamento Postal (CEP). Exemplo: “29140-070”. <br>
-•	logradouro: Campo do tipo varchar que armazena o nome da rua/avenida em que localiza-se o local cadastrado. Exemplo: “Rua Humaitá”. <br>
-•	numero: Campo do tipo varchar que armazena o número da rua/avenida. Exemplo: “2345”. <br>
+•	cep: Campo do tipo char que armazena o Código de Endereçamento Postal (CEP). Exemplo: '29140-070'. <br>
+•	logradouro: Campo do tipo varchar que armazena o nome da rua/avenida em que localiza-se o local cadastrado. Exemplo: 'Rua Humaitá'. <br>
+•	numero: Campo do tipo varchar que armazena o número da rua/avenida. Exemplo: '2345'. <br>
 
 <b> ENTIDADE BAIRRO: </b> Tabela que armazena os dados do bairro onde localiza-se o local. <br>
 
 •	id_bairro: Campo do tipo serial que contém o código identificador de cada bairro referente a cada local. <br>
-•	nome: Campo do tipo varchar que armazena o nome do bairro. Exemplo: “Jardim América”. <br>
+•	nome: Campo do tipo varchar que armazena o nome do bairro. Exemplo: 'Jardim América'. <br>
 
 <b> ENTIDADE MUNICIPIO: </b> Tabela que armazena os dados do município onde localiza-se o local. <br>
 
 •	id_municipio: Campo do tipo serial que contém o código identificador de cada município referente a cada local. <br>
-•	nome: Campo do tipo varchar que armazena o nome do município. Exemplo: “Cariacica”. <br>
+•	nome: Campo do tipo varchar que armazena o nome do município. Exemplo: 'Cariacica'. <br>
 
 <b> ENTIDADE ESTADO: </b> Tabela que armazena os dados do Estado onde localiza-se o local. <br>
 
 •	id_estado: Campo do tipo serial que contém o código identificador de cada Estado/Unidade Federativa (UF) referente a cada local. <br>
-•	nome: Campo do tipo char que armazena o nome do Estado/Unidade Federativa (UF). Exemplo: “ES”. <br>
+•	nome: Campo do tipo char que armazena o nome do Estado/Unidade Federativa (UF). Exemplo: 'ES'. <br>
 
 <b> ENTIDADE COMODO: </b> Tabela que armazena os dados dos cômodos do local. <br>
 
 •	id_comodo: Campo do tipo serial que contém o código identificador de cada cômodo do local. <br>
-•	nome: Campo do tipo varchar que armazena o nome fictício dado ao cômodo do local. Exemplo: “Quarto da Ana”. <br>
+•	nome: Campo do tipo varchar que armazena o nome fictício dado ao cômodo do local. Exemplo: 'Quarto da Ana'. <br>
 
 <b> ENTIDADE ELETROELETRONICO: </b> Tabela que armazena os dados dos eletroeletrônicos dos cômodos. <br>
 
 •	id_eletro: Campo do tipo serial que contém o código identificador de cada eletroeletrônico presente em casa cômodo. <br>
-•	nome: Campo do tipo varchar que armazena o nome fictício dado ao eletroeletrônico presente no cômodo. Exemplo: “Ar-condicionado Arno”. <br>
-•	status: Campo do tipo varchar que armazena a situação em que se encontra um eletroeletrônico em determinado momento, informando se ele está ligado ou desligado. Exemplo: “Ligado”. <br>
+•	nome: Campo do tipo varchar que armazena o nome fictício dado ao eletroeletrônico presente no cômodo. Exemplo: 'Ar-condicionado Arno'. <br>
+•	status: Campo do tipo varchar que armazena a situação em que se encontra um eletroeletrônico em determinado momento, informando se ele está ligado ou desligado. Exemplo: 'Ligado'. <br>
 •	hora: Campo do tipo time que armazena a hora em que o eletroeletrônico foi ligado ou desligado. Este campo apenas armazena a hora, o que determina se ele foi ligado ou desligado é o seu status. Exemplo: ‘10:20:36.000’. <br>
 •	potencia: Campo do tipo integer que armazena a potência em Watts do eletroeletrônico. Exemplo: 40. <br>
 
 <b> ENTIDADE DATA_USO: </b> Tabela que armazena os dados referentes às datas que foram utilizados os equipamentos do local. <br>
 
 •	id_data: Campo do tipo serial que contém o código identificador das datas de utilização dos eletroeletrônicos presentes em casa cômodo. <br>
-•	data_uso: Campo do tipo date que armazena a data em que foi usado o eletroeletrônico. Exemplo: “04/05/2018”. <br>
+•	data_uso: Campo do tipo date que armazena a data em que foi usado o eletroeletrônico. Exemplo: '04/05/2018'. <br>
 
 <b> ENTIDADE UTILIZACAO_ELETRO: </b> Tabela que armazena os dados referentes à utilização do eletroeletrônico. <br>
 
@@ -237,7 +237,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <b> ENTIDADE NIVEL_ACESSO: </b> Tabela que armazena os dados sobre os níveis de acesso (permissões) dadas aos Usuários Comuns. <br>
 
 •	id_permissao: Campo do tipo serial que contém o código identificador do nível de permissão de cada usuário. <br>
-•	descricao: Campo do tipo text que armazena um texto com a descrição dos níveis de acesso. Exemplo: “A pessoa possui controle sobre o equipamento em questão, podendo ligá-lo e desligá-lo”.  <br>
+•	descricao: Campo do tipo text que armazena um texto com a descrição dos níveis de acesso. Exemplo: 'A pessoa possui controle sobre o equipamento em questão, podendo ligá-lo e desligá-lo'.  <br>
 
 
 ### 6	MODELO LÓGICO<br>
