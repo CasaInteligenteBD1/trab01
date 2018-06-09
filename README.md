@@ -86,11 +86,11 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 5. MODELO CONCEITUAL<br>
 
-    Modelo Conceitual
+    <b> Modelo Conceitual </b>
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20-%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
-    Notação UML
+    <b> Notação UML </b>
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes%20-%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
 
