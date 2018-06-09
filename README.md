@@ -288,6 +288,18 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
+    select * from eletroeletronico where status='Ligado';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20eletroeletronico%20where%20status%3D'Ligado'.PNG "Where - Status Ligado")
+
+    select id_eletro, nome, hora from eletroeletronico where status='Desligado';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20hora%20from%20eletroeletronico%20where%20status%3D'Desligado'.PNG "Where - Status Deligado")
+
+    select id_eletro, nome, potencia, fk_comodo from eletroeletronico where potencia>=1000;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20fk_comodo%20from%20eletroeletronico%20where%20potencia1000.PNG "Where - Potência")
+
+    select id_pessoa, nome, data_nasc from pessoa where data_nasc<='1980-01-01';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_pessoa%2C%20nome%2C%20data_nasc%20from%20pessoa%20where%20data_nasc'1980-01-01'%3B.PNG "Where - Data Nascimento")
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
