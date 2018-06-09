@@ -86,7 +86,11 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 5. MODELO CONCEITUAL<br>
 
+<br> Modelo Conceitual
+
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20-%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
+
+<br> Notação UML 
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes%20-%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
 
@@ -142,7 +146,8 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 
 ### 6	MODELO LÓGICO<br>
-        ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20JARVIS.png "Modelo Lógico - JARVIS")
+
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20JARVIS.png "Modelo Lógico - JARVIS")
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
