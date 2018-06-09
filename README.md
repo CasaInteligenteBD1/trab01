@@ -62,7 +62,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 4 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
-[Propótipos - JARVIS - Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01/raw/master/arquivos/Jarvis%20-%20Casa%20inteligente.pdf)
+[Propótipos - JARVIS - Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/JARVIS%20Proto%CC%81tipos.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
