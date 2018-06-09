@@ -86,15 +86,16 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 5. MODELO CONCEITUAL<br>
 
-<br> Modelo Conceitual
+    Modelo Conceitual
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Conceitual%20-%20JARVIS.png "Modelo Conceitual - Casa Inteligente - JARVIS")
 
-<br> Notação UML 
+    Notação UML
 
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes%20-%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
 
 #### 5.1 Validação do Modelo Conceitual
+    
     Estaciona: Andreângelo, Emanuel, Caicke e Anne Caroline
     Super Market: Antônio, Jennifer, Joel e Larissa
 
