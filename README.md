@@ -319,10 +319,53 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
  ![Alt text]( "Operadores Lógicos 5")  - Lembrete: falta colocar a imagem poisa salvei errado
     
     b) Criar no mínimo 3 consultas com operadores aritméticos 
+    
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
+
     a) Criar outras 5 consultas que envolvam like ou ilike
+    
+<br>
+    select * from comodo where nome like 'Sala%';
+![Alt text]( "Like")
+
+    select * from eletroeletronico where nome ilike '%TV ';
+![Alt text]( "iLike")
+
+    select * from local where nome ilike 'Casa d%';
+![Alt text]( "iLike")
+
+    select * from pessoa where nome ilike 'A%';
+![Alt text]( "iLike")
+
+    select * from pessoa where email like '%gmail.com';
+![Alt text]( "Like")
+
+    select * from eletroeletronico where nome like '%Elétrico%';
+![Alt text]( "Like")
+
+    select * from eletroeletronico where status ilike 'Lig%';
+![Alt text]( "iLike")
+
     b) Criar uma consulta para cada tipo de função data apresentada.
+    
+<br>
+
+    select id_pessoa, nome, data_nasc, email current_date as data_nasc (age(current_date, data_nasc)) from pessoa;
+![Alt text]( "age, current_date")
+
+    select id_pessoa, nome, data_nasc, email, current_date as data_nasc, date_part('year',(age(current_date, data_nasc))) as idade from pessoa;
+![Alt text]( "current_date, date_part, 'year', age")
+
+    select id_pessoa, nome, data_nasc, email from pessoa where extract('year' from data_nasc)<1990;
+![Alt text]( "extract, 'year'")
+
+    select id_pessoa, nome, data_nasc, email from pessoa where date_part('year', age(current_date, data_nasc))>40;
+![Alt text]( "date_part, 'year', age, current_date")
+
+    select id_pessoa, nome, data_nasc, email extract('month' from data_nasc) as MES_NASCIMENTO from pessoa;
+![Alt text]( "extract, 'month'")
 
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
