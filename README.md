@@ -327,6 +327,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     
 <br>
+
     select * from comodo where nome like 'Sala%';
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9_4_a_1.PNG "Like")
 
