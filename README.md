@@ -320,7 +320,30 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
     
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     
+<br>
+
+    select id_eletro, nome, potencia, (potencia / 1000.0) as Consumo_KWh from eletroeletronico limit 10
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%201000.0)%20as%20Consumo_KWh%20from%20eletroeletronico%20limit%2010.PNG - Operadores Aritméticos")
+
+    select id_eletro, nome, potencia, (potencia * 30 / 1000.0) * 0.485 as Consumo_R$_1hdia_30dias from eletroeletronico limit 7
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%2030%20%201000.0)%200.485%20as%20Consumo_R%24_1hdia_30dias%20from%20eletroeletronico%20limit%207.PNG "Select - Operadores Aritméticos")
+
+    select id_pessoa, nome, data_nasc where (extract('month' from data_nasc))<=(extract('month' from now())) and (extract('day' from data_nasc))<=(extract('day' from now())), (extract('year' from now()))-(extract('year' from data_nasc))) as idade from pessoa limit 5
+
+<br>
+
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    
+<br>
+
+    select * from comodo as c where c.nome ilike '%Sala%';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20from%20comodo%20as%20c%20where%20c.nome%20ilike%20'Sala.PNG "Select - Renomear")
+
+    select * from eletroeletronico as elt where elt.potencia<250;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20%20from%20eletroeletronico%20as%20elt%20where%20elt.potencia250%3B.PNG "Select - Renomear")
+
+    select hora, nome from eletroeletronico as el where el.hora<'12:00:00' and el.nome like '%Ar%';
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20hora%2C%20nome%20from%20eletroeletronico%20as%20el%20where%20el.hora120000'%20and%20el.nome%20like%20'Ar.PNG "Select - Renomear")
     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
