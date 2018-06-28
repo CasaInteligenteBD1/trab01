@@ -323,7 +323,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 <br>
 
     select id_eletro, nome, potencia, (potencia / 1000.0) as Consumo_KWh from eletroeletronico limit 10
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%201000.0)%20as%20Consumo_KWh%20from%20eletroeletronico%20limit%2010.PNG - Operadores Aritméticos")
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%201000.0)%20as%20Consumo_KWh%20from%20eletroeletronico%20limit%2010.PNG "Select - Operadores Aritméticos")
 
     select id_eletro, nome, potencia, (potencia * 30 / 1000.0) * 0.485 as Consumo_R$_1hdia_30dias from eletroeletronico limit 7
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%2030%20%201000.0)%200.485%20as%20Consumo_R%24_1hdia_30dias%20from%20eletroeletronico%20limit%207.PNG "Select - Operadores Aritméticos")
