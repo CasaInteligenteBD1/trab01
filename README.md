@@ -559,7 +559,35 @@ Depois do Delete:
     select count(*) as "N˙mero de Pessoas" from pessoa;
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/19.PNG "Count")
 
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)
+
+<br>
+
+    select c.nome as "CÙmodo", c.fk_local, l.nome as "Local", l.id_local from local l
+    right outer join comodo c
+    on (l.id_local=fk_local)
+    limit 7
+![Alt text]( https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/20.PNG"Right Join")
+    
+    select p.id_pessoa, p.nome as "Nome da Pessoa", l.nome as "Local da Pessoa", l.fk_pessoa from local l
+    right outer join pessoa p
+    on (p.id_pessoa=l.fk_pessoa)
+    limit 7
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/21.PNG "Right Join")
+    
+    select l.nome as "Local", e.nome as "Eletro" from eletroeletronico e
+    left outer join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    right outer join local l
+    on (l.id_local=c.fk_local)
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/22.PNG "Left Join")
+    
+    select c.id_comodo, c.nome as "CÙmodo", e.nome as "Eletro", e.fk_comodo from eletroeletronico e
+    left outer join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    limit 7
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/23.PNG "Left Join")
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
