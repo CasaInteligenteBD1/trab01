@@ -414,45 +414,60 @@ Depois do Update:
     select id_local, nome from local;
     
 Antes do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/2a.PNG "Update")
+<br>
 
 Depois do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/2.PNG "Update")
 
     update pessoa set email='vanessacardoso@gmail.com' where login='vanessa.silva';
     select nome, login, email from pessoa;
 
 Antes do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/3a.PNG "Update")
+<br>
 
 Depois do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/3.PNG "Update")
 
     delete from eletroeletronico where fk_comodo=1;
     select * from eletroeletronico limit 7
 
 Antes de Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/4a.PNG "Delete")
+<br>
 
 Depois do Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/4.PNG "Delete")
 
     delete from eletroeletronico where nome like '%Ar%';
     select id_eletro, nome, fk_comodo from eletroeletronico;
 
 Antes de Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/5a.PNG "Delete")
+<br>
 
 Depois do Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/5.PNG "Delete")
 
     delete from eletroeletronico where potencia=2.0;
     select id_eletro, nome, potencia from eletroeletronico limit 7
 
 Antes de Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/6a.PNG "Delete")
+<br>
 
 Depois do Delete:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/6.PNG "Delete")
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
