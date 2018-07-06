@@ -328,7 +328,8 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
     select id_eletro, nome, potencia, (potencia * 30 / 1000.0) * 0.485 as Consumo_R$_1hdia_30dias from eletroeletronico limit 7
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/select%20id_eletro%2C%20nome%2C%20potencia%2C%20(potencia%20%2030%20%201000.0)%200.485%20as%20Consumo_R%24_1hdia_30dias%20from%20eletroeletronico%20limit%207.PNG "Select - Operadores Aritméticos")
 
-    select id_pessoa, nome, data_nasc where (extract('month' from data_nasc))<=(extract('month' from now())) and (extract('day' from data_nasc))<=(extract('day' from now())), (extract('year' from now()))-(extract('year' from data_nasc))) as idade from pessoa limit 5
+    select id_pessoa, nome, (extract('month' from data_nasc))+(extract('day' from now()))+(extract('year' from data_nasc)) as "Soma dia+mes+ano" from pessoa limit 5
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.3.b.3.PNG "Select - Operadores Aritméticos")
 
 <br>
 
@@ -376,11 +377,11 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
     
 <br>
 
-    select id_pessoa, nome, data_nasc, email, current_date as data_nasc, (age(current_date, data_nasc)) from pessoa;
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9_4_b_1.PNG "age, current_date")
+    select id_pessoa, nome, data_nasc, email, (age(current_date, data_nasc)) from pessoa;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.4.b.1.PNG "age, current_date")
 
-    select id_pessoa, nome, data_nasc, email, current_date as data_nasc, date_part('year',(age(current_date, data_nasc))) as idade from pessoa;
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9_4_b_2.PNG "current_date, date_part, 'year', age")
+    select id_pessoa, nome, data_nasc, email, date_part('year',(age(current_date, data_nasc))) as idade from pessoa;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.4.b.2.PNG "current_date, date_part, 'year', age")
 
     select id_pessoa, nome, data_nasc, email from pessoa where extract('year' from data_nasc)<1990;
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9_4_b_3.PNG "extract, 'year'")
@@ -394,6 +395,63 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 >## Marco de Entrega 04 em: (04/06/2017)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+<br> 
+
+    update pessoa set nome='Vanessa Silva Cardoso' where login='vanessa.silva';
+    select nome, login from pessoa;
+    
+Antes do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/blob/master/arquivos/1a.PNG?raw=true "Update")
+
+Depois do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/1.PNG "Update")
+
+    update local set nome='Casa do Santero' where id_local=11;
+    select id_local, nome from local;
+    
+Antes do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/2a.PNG "Update")
+
+Depois do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/2.PNG "Update")
+
+    update pessoa set email='vanessacardoso@gmail.com' where login='vanessa.silva';
+    select nome, login, email from pessoa;
+
+Antes do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/3a.PNG "Update")
+
+Depois do Update:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/3.PNG "Update")
+
+    delete from eletroeletronico where fk_comodo=1;
+    select * from eletroeletronico limit 7
+
+Antes de Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/4a.PNG "Delete")
+
+Depois do Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/4.PNG "Delete")
+
+    delete from eletroeletronico where nome like '%Ar%';
+    select id_eletro, nome, fk_comodo from eletroeletronico;
+
+Antes de Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/5a.PNG "Delete")
+
+Depois do Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/5.PNG "Delete")
+
+    delete from eletroeletronico where potencia=2.0;
+    select id_eletro, nome, potencia from eletroeletronico limit 7
+
+Antes de Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/6a.PNG "Delete")
+
+Depois do Delete:
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/6.PNG "Delete")
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
