@@ -470,8 +470,14 @@ Depois do Delete:
 <br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/6.PNG "Delete")
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)
+
+<br>
+
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+
+<br>
+
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
