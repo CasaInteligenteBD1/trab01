@@ -475,10 +475,57 @@ Depois do Delete:
 <br>
 
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-
+        
 <br>
 
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+        select p.nome as "Pessoa", l.nome as "Local", c.nome as "Cômodo", e.nome as "Eletro" from eletroeletronico e
+        inner join comodo c
+        on (c.id_comodo=e.fk_comodo)
+        inner join local l
+        on (l.id_local=c.fk_local)
+        inner join pessoa p
+        on (p.id_pessoa=l.fk_pessoa)
+        limit 7
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/7.PNG "Join")
+
+      b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+      
+<br>
+
+    select p.nome as "Nome da Pessoa", l.nome as "Local da Pessoa" from local l
+    inner join pessoa p
+    on (p.id_pessoa=l.fk_pessoa)
+    order by p.nome asc
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/8.PNG "Join")
+
+    select l.nome as "Local", c.nome as "Cômodo", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    inner join local l
+    on (l.id_local=c.fk_local)
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.PNG "Join" "Join")
+
+    select l.nome as "Local", c.nome as "Cômodo" from comodo c
+    inner join local l
+    on (l.id_local=c.fk_local)
+    order by l.nome ilike '%casa%' desc
+    limit 10
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/10.PNG "Join")
+
+    select c.nome as "Cômodo", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    order by c.nome asc
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/11.PNG "Join")
+
+    select l.nome as "Local", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    inner join local l
+    on (l.id_local=c.fk_local)
+    order by e.nome asc
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/12.PNG "Join")
+   
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
