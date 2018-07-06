@@ -567,7 +567,7 @@ Depois do Delete:
     right outer join comodo c
     on (l.id_local=fk_local)
     limit 7
-![Alt text]( https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/20.PNG"Right Join")
+![Alt text]( https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/20.PNG "Right Join")
     
     select p.id_pessoa, p.nome as "Nome da Pessoa", l.nome as "Local da Pessoa", l.fk_pessoa from local l
     right outer join pessoa p
