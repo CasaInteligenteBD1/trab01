@@ -526,7 +526,39 @@ Depois do Delete:
     order by e.nome asc
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/12.PNG "Join")
    
-#### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+#### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)
+
+<br>
+
+    select nome as "Eletros" from eletroeletronico group by nome;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/13.PNG "Group by")
+    
+    select fk_local as "Identificador do CÙmodo", count(fk_local) as "Contagem" from comodo group by fk_local;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/14.PNG "Count")
+    
+    select nome as "Eletro", count(*) as "Quantidade" from eletroeletronico group by nome;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/15.PNG "Group by e Count")
+    
+    select l.nome as "Local", count(*) as "Qtd Cômodos" from comodo c
+    inner join local l
+    on (l.id_local=c.fk_local)
+    group by l.nome
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/16.PNG "Group by e count")
+    
+    select l.nome as "Local", count(l.nome) as "Qtd Eletros" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    inner join local l
+    on (l.id_local=c.fk_local)
+    group by l.nome
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/17.PNG "Group by e count")
+
+    select avg(potencia) as "Média Potência dos Eletros" from eletroeletronico;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/18.PNG "Avg")
+
+    select count(*) as "N˙mero de Pessoas" from pessoa;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/19.PNG "Count")
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
