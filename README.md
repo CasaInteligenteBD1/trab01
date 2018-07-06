@@ -503,7 +503,7 @@ Depois do Delete:
     on (c.id_comodo=e.fk_comodo)
     inner join local l
     on (l.id_local=c.fk_local)
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.PNG "Join" "Join")
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/9.PNG "Join")
 
     select l.nome as "Local", c.nome as "Cômodo" from comodo c
     inner join local l
