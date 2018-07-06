@@ -402,9 +402,12 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
     select nome, login from pessoa;
     
 Antes do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/blob/master/arquivos/1a.PNG?raw=true "Update")
+<br>
 
 Depois do Update:
+<br>
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/1.PNG "Update")
 
     update local set nome='Casa do Santero' where id_local=11;
