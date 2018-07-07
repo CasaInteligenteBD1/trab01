@@ -686,7 +686,12 @@ Grupo que realizou o teste: Antônio, Jennifer, Joel e Larissa.
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-- A principal dificuldade foi na construção do modelo conceitual. Ao final do trabalho pude perceber por conta própria que um bom modelo conceitual teria me facilitado na implementação do banco de dados.
+<p align = "justify"> - A maior dificuldade, quanto ao conteúdo, foi na construção do modelo conceitual e no diagrama de classes (da matéria de Análise de Sistemas). Ao final do trabalho pude perceber por conta própria que um bom modelo conceitual e teria me facilitado na implementação do banco de dados. </p>
+<p align = "justify"> - Outra dificuldade foi quanto à falta do computador que dificultou com que eu realizasse todas as atividades e me sobrecarregou para entrega do trabalho num período curto de tempo (normalmente na última semana de entrega). Levando também em consideração as outras disciplinas com uma grande quantidade de trabalhos, e conciliando com a falta de um computador para realizar as tarefas, o tempo se tornou reduzido uma vez que para fazer os trabalhos de BDI eu tinha que utilizar os computadores do IFES. Dessa forma, não consegui realizar os trabalhos da melhor forma possível (o mesmo digo para a aprova). Queria ter tido um resultado melhor, dei o melhor de mim, porém, infelizmente, como você mesmo disse "o tempo é finito". Corri contra o tempo para entregar tudo, mesmo que não estivesse tão bom, mas se eu tivesse uma sobrecarga menor, com certeza entregaria um trabalho mais bem feito. </p>
+
+### Observação
+
+<p align = "justify"> <b> Além de fazer os tópicos da entrega final (9.5 a 13), fiz algumas pequenas alterações nas seções anteriores como no minimundo, regras de negócio, protótipos, modelo conceitual, modelo lógico e diagrama de classes. </b> </p>
 
 >## Marco de Entrega Final em: (25/06/2018)<br>
         
