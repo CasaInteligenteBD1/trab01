@@ -92,7 +92,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
     Notação UML
 
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes%20-%20JARVIS.png "Notação UML - Casa Inteligente - JARVIS")
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Diagrama%20de%20Classes.png "Notação UML - Casa Inteligente - JARVIS")
 
 #### 5.1 Validação do Modelo Conceitual
     
