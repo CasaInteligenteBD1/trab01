@@ -242,7 +242,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20JARVIS.png "Modelo Lógico - JARVIS")
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Modelo%20Lo%CC%81gico%20-%20Jarvis.png "Modelo Lógico - JARVIS")
 
 ### 7	MODELO FÍSICO<br>
 
