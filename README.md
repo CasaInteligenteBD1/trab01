@@ -642,7 +642,7 @@ Depois do Delete:
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
-    select c.nome as "CÙmodo", e.nome as "Eletro" from eletroeletronico e
+    select c.nome as "Cômodo", e.nome as "Eletro" from eletroeletronico e
     inner join comodo c
     on (c.id_comodo=e.fk_comodo)
     where c.nome in (
@@ -691,9 +691,13 @@ Grupo que realizou o teste: Antônio, Jennifer, Joel e Larissa.
 
 ### Observação
 
-<p align = "justify"> <b> Além de fazer os tópicos da entrega final (9.5 a 13), fiz algumas pequenas alterações nas seções anteriores como no minimundo, regras de negócio, protótipos, modelo conceitual, modelo lógico e diagrama de classes. </b> </p>
+<p align = "justify"> <b> Além de fazer os tópicos da entrega final (9.5 a 13), fiz algumas pequenas alterações nas seções anteriores como no minimundo, regras de negócio, protótipos, modelo conceitual, modelo lógico e diagrama de classes. Também alterei algumas consultas e tabelas da seção 9.3b e 9.4b, além de adicionar as tabelas que estavam faltando da entrega anterior (seção 9 a 9.4), que não foram adicionadas por erro de digitação. </b> </p>
 
 >## Marco de Entrega Final em: (25/06/2018)<br>
+
+
+
+
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
