@@ -595,12 +595,18 @@ Depois do Delete:
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
+
+[Backup Jarvis](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/backupJarvis.backup)
+
     a) deve ser realizado no formato "backup" 
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+
+[Tutorial Jarvis](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Tutorial%20Jarvis.pdf)
+
         a) Outros grupos deverão ser capazes de restaurar o banco 
         b) executar todas as consultas presentes no trabalho
         c) executar códigos que tenham sido construídos para o trabalho 
