@@ -40,7 +40,6 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> O aplicativo deve notificar os usuários quando algum eletroeletrônico estiver inacessível e os equipamentos devem possuir uma forma de desligamento manual a fim de garantir uma maior segurança. A cobrança será mensal e o valor da cota de cobrança será proporcional ao número de usuários cadastrados em cada conta, pelo tempo que o cliente estiver utilizando o  aplicativo. </p>
 
-
 <p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
 
 <br align = "justify"> <b> RN01: </b> A cobrança pela utilização do aplicativo será realizada mensalmente.
@@ -63,7 +62,7 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 ### 4 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
-[Propótipos - JARVIS - Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/JARVIS%20Proto%CC%81tipos.pdf)
+[Propótipos - JARVIS - Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/Proto%CC%81tipos%20JARVIS.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
