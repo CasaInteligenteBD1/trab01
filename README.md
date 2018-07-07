@@ -40,25 +40,23 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com <br>
 
 <p align = "justify"> <b> REGRAS DE NEGÓCIO: </b> </p>
 
-<br align = "justify"> <b> RN01: </b> Todo usuário do sistema deve ser cadastrado. 
-<br align = "justify"> <b> RN02: </b> Os perfis de utilização do sistema irão interagir com a administração dos dispositivos controlados.
-<br align = "justify"> <b> RN03: </b> A cobrança pela utilização do aplicativo será realizada mensalmente. 
-<br align = "justify"> <b> RN04: </b> O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta.
-<br align = "justify"> <b> RN05: </b> O sistema deve ter um único Usuário Master. 
-<br align = "justify"> <b> RN06: </b> Todos os equipamentos devem possuir alternativa de controle manual.
-<br align = "justify"> <b> RN07: </b> Todo eletroeletrônico atendido pelo aplicativo precisa ser cadastrado para que seja controlado. 
-<br align = "justify"> <b> RN08: </b> Existem restrições ou não para cada Usuário Comum, onde depende do Usuário Master restringir ou não um equipamento a ele. 
-<br align = "justify"> <b> RN09: </b> O relatório de consumo de energia deve gerar uma estimativa de consumo de acordo com o período selecionado pelo usuário. 
-<br align = "justify"> <b> RN10: </b> A estimativa de consumo gerada no relatório de consumo de energia refere-se à três informações: ao gasto de energia por eletroeletrônico dentre todos presentes no local em KWh, ao gasto total de energia em KWh (soma dos gastos de cada equipamento) e à estimativa de valor gasto naquele período.
-<br align = "justify"> <b> RN11: </b> Deve ser possível cadastrar no máximo seis locais/ambientes. 
-<br align = "justify"> <b> RN12: </b> O pagamento mensal pelo contrato do sistema pode ser realizado por boleto bancário, cartão de crédito ou débito. 
-<br align = "justify"> <b> RN13: </b> Apenas pessoas com idade maior ou igual a 18 anos podem contratar o sistema.
-<br align = "justify"> <b> RN14: </b> Para contratar o sistema é necessário realizar um cadastro pelo site do JARVIS, a partir do qual é possível acessá-lo sem a necessidade de um novo cadastro pelo aplicativo. 
-<br align = "justify"> <b> RN15: </b> Após realizar o cadastro, o aplicativo somente será liberado para uso após confirmação do pagamento. 
-<br align = "justify"> <b> RN16: </b> Clientes em atraso têm até 15 dias para realizar o pagamento. Após esse período, o aplicativo será desativado para uso. 
-<br align = "justify"> <b> RN17: </b> Somente é possível cadastrar cômodos se um local já estiver cadastrado. Da mesma forma, somente é possível cadastrar moradores e eletroeletrônicos se os cômodos estiverem cadastrados. 
-<br align = "justify"> <b> RN18: </b> O sistema deve manter o histórico de consumo de energia. Portanto, é possível selecionar um período passado. 
-<br align = "justify"> <b> RN19: </b> Deve haver dispositivo de contenção para caso de falta de energia. 
+<br align = "justify"> <b> RN01: </b> A cobrança pela utilização do aplicativo será realizada mensalmente.
+<br align = "justify"> <b> RN02: </b> O valor da cota de cobrança será proporcional ao número de usuários do aplicativo em cada conta. O cálculo mensal será com base na seguinte expressão: Valor Mensal = Número de Usuários x Valor por Usuário.
+<br align = "justify"> <b> RN03: </b> O sistema deve ter um único Usuário Titular.
+<br align = "justify"> <b> RN04: </b> Todo eletroeletrônico atendido pelo aplicativo precisa ser cadastrado para que seja controlado.
+<br align = "justify"> <b> RN05: </b> O Titular pode adicionar restrições quanto à utilização dos eletroeletrônicos por parte dos Dependentes. Isso é feito da seguinte forma: para cada Dependente, é alocada uma permissão diferente a cada eletroeletrônico.
+<br align = "justify"> <b> RN06: </b> O relatório de consumo de energia deve gerar uma estimativa de consumo de acordo com o período selecionado pelo usuário.
+<br align = "justify"> <b> RN07: </b> A estimativa de consumo gerada no relatório de consumo de energia refere-se à três informações: ao gasto de energia por eletroeletrônico dentre todos presentes no local em KWh, ao gasto total de energia em KWh (soma dos gastos de cada equipamento) e à estimativa de valor gasto naquele período.
+<br align = "justify"> <b> RN08: </b> Deve ser possível cadastrar no máximo seis locais/ambientes.
+<br align = "justify"> <b> RN09: </b> Apenas pessoas com idade maior ou igual a 18 anos podem contratar o sistema.
+<br align = "justify"> <b> RN10: </b> Para contratar o sistema é necessário realizar um cadastro pelo site do JARVIS, a partir do qual é possível acessá-lo sem a necessidade de um novo cadastro pelo aplicativo.
+<br align = "justify"> <b> RN11: </b> Após realizar o cadastro no site de publicidade do JARVIS, o aplicativo somente será liberado para uso após confirmação do pagamento.
+<br align = "justify"> <b> RN12: </b> Para adquirir o sistema é preciso realizar um cadastro no site de publididade do JARVIS, sendo necessário selecionar a forma de pagamento. O pagamento mensal pelo contrato do sistema pode ser realizado por boleto bancário, cartão de crédito ou débito.
+<br align = "justify"> <b> RN13: </b> Clientes em atraso têm até 15 dias para realizar o pagamento. Após esse período, o aplicativo será desativado para uso.
+<br align = "justify"> <b> RN14: </b> Somente é possível cadastrar cômodos se um local já estiver cadastrado. Da mesma forma, somente é possível cadastrar moradores e eletroeletrônicos se os cômodos estiverem cadastrados.
+<br align = "justify"> <b> RN15: </b> O sistema deve manter o histórico de consumo de energia. Portanto, é possível selecionar um período passado.
+<br align = "justify"> <b> RN16: </b> O acesso à funções de cadastro deve ser gerenciado pelo nível de permissão.
+<br align = "justify"> <b> RN17: </b> O sistema deve controlar o acesso às funcionalidades. Funcionalidades de cadastro de locais, moradores, cômodos e eletroeletrônicos, estão restritas à pessoa com conta Titular. A pessoa com conta comum possui restrições.
 
 ### 4 RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
@@ -673,10 +671,7 @@ Depois do Delete:
 
 [Backup Jarvis](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/backupJarvis.backup)
 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
+Grupo que realizou o teste: Antônio, Jennifer, Joel e Larissa.
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
 
@@ -688,6 +683,9 @@ Depois do Delete:
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+
+- A principal dificuldade foi na construção do modelo conceitual. Ao final do trabalho pude perceber por conta própria que um bom modelo conceitual teria me facilitado na implementação do banco de dados.
+
 >## Marco de Entrega Final em: (25/06/2018)<br>
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
