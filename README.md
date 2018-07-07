@@ -588,10 +588,85 @@ Depois do Delete:
     limit 7
 ![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/23.PNG "Left Join")
 
-#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)
+
+<br>
+
         a) Uma junção que envolva Self Join
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+        
+    select e1.id_eletro, e1.nome, e1.potencia, e2.id_eletro, e2.nome, e2.potencia
+    from eletroeletronico as e2
+    inner join eletroeletronico e1
+    on (e2.potencia=e1.potencia and e2.id_eletro<>e1.id_eletro)
+    order by 1, 2
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/24.PNG "Self Join")
+
+    b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+    
+<br>
+
+    create view vwPessoa as
+    select id_pessoa as "Identificação", nome as "Nome da Pessoa", email as "Endereço de e-mail", login as "Login", senha as "Senha", tipo_pessoa as "Tipo de Usuário" from pessoa
+    
+    select * from vwPessoa;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/25.PNG "View")
+
+    create view viewComodo as
+    select c.id_comodo as "ID CÙmodo", c.nome as "CÙmodo", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    
+    select * from viewComodo;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/26.PNG "View")
+ 
+    create view vwPessoaNasc as
+    select id_pessoa as "ID", nome as "Nome", data_nasc as "Nascimento", (age(current_date, data_nasc)) as "Tempo de vida" from pessoa;
+
+    select * from vwPessoaNasc;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/27.PNG "View")
+
+    create view vwPessoaIdade as
+    select id_pessoa as "ID", nome as "NOME", data_nasc "NASCIMENTO", date_part('year',(age(current_date, data_nasc))) as "IDADE" from pessoa;
+
+    select * from vwPessoaIdade;
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/28.PNG "View")
+    
+    create view viewPessoaLocal as
+    select p.id_pessoa, p.nome as "Nome da Pessoa", l.nome as "Local da Pessoa" from local l
+    inner join pessoa p
+    on (p.id_pessoa=l.fk_pessoa)
+    order by 1, 3
+
+    select * from viewPessoaLocal;  
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/29.PNG "View")
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+
+    select c.nome as "CÙmodo", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    where c.nome in (
+        select nome from comodo where nome ilike 'a%')
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/30.PNG "Subconsulta")     
+        
+    select l.nome as "Local", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    inner join local l
+    on (l.id_local=c.fk_local)
+    where e.status in (
+        select status from eletroeletronico where status='Desligado' )
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/31.PNG "Subconsulta") 
+
+    select l.nome as "Local", c.nome as "CÙmodo", e.nome as "Eletro" from eletroeletronico e
+    inner join comodo c
+    on (c.id_comodo=e.fk_comodo)
+    inner join local l
+    on (l.id_local=c.fk_local)
+    where c.nome in (
+        select nome from comodo where nome ilike '%Sala%')
+![Alt text](https://github.com/CasaInteligenteBD1/trab01_ci/raw/master/arquivos/32.PNG "Subconsulta") 
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
